@@ -1,7 +1,7 @@
 const express=require("express")
 const app =express()
 var cors = require('cors')
-app.use(cors({origin: true, credentials: true}));
+app.use(cors());
 require("dotenv").config()
 app.use(express.json())
 const mongoose=require("mongoose");
