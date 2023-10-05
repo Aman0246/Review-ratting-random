@@ -6,7 +6,7 @@ import Register from './components/Register';
 import axios from 'axios'
 import Home from './components/Home';
 function App() {
-  axios.defaults.baseURL = import.meta.env.VITE_PORT;
+  axios.defaults.baseURL = 'https://random-5sft.onrender.com';
   return (
 <>
 <Routes>
