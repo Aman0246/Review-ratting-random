@@ -55,7 +55,7 @@ export default function AddCompangDialog({ setopenDialog, openDialog }) {
                             {/* <input className='addcompany'  onChange={handleChange} name='City' type="text" /> */}
                         </div>
                         <div className='addcompanyContainer'>
-                            <div>Founded on</div>
+                            <div>Founded on(Year)</div>
                             <input className='addcompany' onChange={handleChange} name='founded' type="text" />
                         </div>
 
